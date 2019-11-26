@@ -1,0 +1,53 @@
+/* Sections */
+.column {
+    float: left;
+    padding: 0.5em;
+}
+.left, .right {
+    width: 46%;
+}  
+.middle {
+    width: 3%;
+}
+
+/* Clear floats after the columns */
+.row,.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Product Link */
+.productLink{
+    color: green;
+    text-decoration: none;
+}
+
+/* Iamge Author and gray line */
+.linegrayImg,.authorImg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+@media #{$information-phone} {
+    .heading1{
+        font-size: 2.1em;
+    }
+    .textSection2{
+        border-bottom: 1px solid gray;
+
+    }
+    .column,.left,.middle,.right{
+        float: none;
+        width: 100%;
+        font-size: 1.4em;
+    }
+    .linegrayImg{
+        display: none;
+    }
+
+  }

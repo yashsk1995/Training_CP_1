@@ -1,0 +1,43 @@
+/* Text Author */
+.textAuthor{
+    color: $GrayText;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+/* Text Author */
+.textAuthor1{
+    color: $GrayText;
+    text-align: center;
+    font-size: 1.3em;
+}
+/* Author Name */
+.authorName{
+    color:$headingColor;
+    text-align: center;
+}
+
+/* Sections  */
+.column1 {
+    float: left;
+	padding: 2em;   
+}
+.left1, .right1 {
+    width: 20%;
+}
+.middle1 {
+    width: 30%;
+}
+
+@media #{$information-phone} {
+
+    .column1,.left1,.right1,.middle1,.row{
+        float: none;
+        width: 95%;
+    }
+   
+    .textAuthor,.textAuthor1{
+        font-size: 1.5em;
+        word-wrap: break-word;
+    }
+}

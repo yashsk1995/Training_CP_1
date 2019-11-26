@@ -1,0 +1,27 @@
+/* Home loan Artcile*/
+.homeloadaticle{
+    background: #ebf7f5;
+    padding: 2em;
+    margin-top: -.2em;
+    font-size: 1.2em;
+    color: $GrayText;
+}
+
+/* Home Loan Button */
+.homeloanbtn{
+    display: block;
+	width: 100%;
+	height: 4em;
+	font-size: 1.2em;
+	border: none;
+    background: $headingColor;
+    color: $whiteText;
+}
+
+@media #{$information-phone} {
+
+    .homeloanbtn{
+        font-size: 1.4em;
+
+    }
+}
